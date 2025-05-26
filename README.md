@@ -4,7 +4,10 @@
 
 # ControlGS
 
-To reduce storage and computational costs, 3D Gaussian Splatting (3DGS) minimizes the number of Gaussians while preserving high rendering quality. **ControlGS** extends 3DGS with *semantically meaningful*, cross-scene consistent quantity–quality control. Through a single training run using a fixed setup and a user-specified hyperparameter reflecting quantity–quality preference, ControlGS can automatically find desirable quantity–quality trade-off points across diverse scenes, from compact objects to large outdoor scenes. It also outperforms baselines by achieving higher rendering quality with fewer Gaussians, and supports a broad adjustment range with stepless control over the trade-off.
+To reduce storage and computational costs, 3D Gaussian Splatting (3DGS) seeks to minimize the number of Gaussians used while preserving high rendering quality. ControlGS extends 3DGS with *semantically meaningful*, cross-scene consistent quantity–quality control. Through a single training run using a fixed setup and a user-specified hyperparameter reflecting quantity–quality preference, ControlGS can automatically find desirable quantity–quality trade-off points across diverse scenes, from compact objects to large outdoor scenes. It also outperforms baselines by achieving higher rendering quality with fewer Gaussians, and supports a broad adjustment range with stepless control over the trade-off.
+
+For more details, please see the paper: 
+["*Consistent Quantity-Quality Control across Scenes for Deployment-Aware Gaussian Splatting*".](https://arxiv.org/abs/2505.10473)
 
 ## Hardware Requirements
 
@@ -68,7 +71,7 @@ Resolution of loaded images before training.
 - If unset and input width > 1600px, images auto-rescale to 1600px
 
 #### --data_device  
-Device to load source image data onto (`cuda` or `cpu`). Use `cpu` if your GPU has less than 24 GB of VRAM.
+Device to load source image data onto (`cuda` or `cpu`). It is recommended to use `cpu`.
 
 #### --white_background / -w  
 Use white background instead of black (e.g. for NeRF Synthetic evaluation).
@@ -171,13 +174,10 @@ This software is free for non-commercial, research and evaluation use under the 
 If you use ControlGS, please cite:
 
 ```bibtex
-@misc{zhang2025controlgs,
-      title={Consistent Quantity-Quality Control across Scenes for Deployment-Aware Gaussian Splatting}, 
-      author={Fengdi Zhang and Hongkun Cao and Ruqi Huang},
-      year={2025},
-      eprint={2505.10473},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.10473}
+@article{zhang2025consistent,
+   title={Consistent Quantity-Quality Control across Scenes for Deployment-Aware Gaussian Splatting},
+   author={Zhang, Fengdi and Cao, Hongkun and Huang, Ruqi},
+   journal={arXiv preprint arXiv:2505.10473},
+   year={2025}
 }
 ```

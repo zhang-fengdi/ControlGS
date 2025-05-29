@@ -143,10 +143,10 @@ Weight of the SSIM term in the total loss (0–1).
 Maximum number of densification steps.
 
 #### --densification_batch_size  
-Number of Gaussians to add per densification batch.
+Number of Gaussians in each densification batch.
 
 #### --prune_change_threshold  
-Minimum Gaussian count change to trigger pruning.
+Minimum change in the number of Gaussians to trigger pruning.
 
 #### --opacity_threshold  
 Opacity value below which Gaussians will be pruned.

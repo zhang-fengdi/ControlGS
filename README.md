@@ -4,7 +4,7 @@
 
 # ControlGS
 
-To reduce storage and computational costs, 3D Gaussian Splatting (3DGS) seeks to minimize the number of Gaussians used while preserving high rendering quality. ControlGS extends 3DGS with *semantically meaningful*, cross-scene consistent quantity–quality control. Through a single training run using a fixed setup and a user-specified hyperparameter reflecting quantity–quality preference, ControlGS can automatically find desirable quantity–quality trade-off points across diverse scenes, from compact objects to large outdoor scenes. It also outperforms baselines by achieving higher rendering quality with fewer Gaussians, and supports a broad adjustment range with stepless control over the trade-off.
+To reduce storage and computational costs, 3D Gaussian Splatting (3DGS) seeks to minimize the number of Gaussians used while preserving high rendering quality, introducing an inherent trade-off between Gaussian quantity and rendering quality. ControlGS extends 3DGS with *semantically meaningful*, cross-scene consistent quantity–quality control. Through a single training run using a fixed setup and a user-specified hyperparameter reflecting quantity–quality preference, ControlGS can automatically find desirable quantity–quality trade-off points across diverse scenes, from compact objects to large outdoor scenes. It also outperforms baselines by achieving higher rendering quality with fewer Gaussians, and supports a broad adjustment range with stepless control over the trade-off.
 
 For more details, please see the paper: 
 ["*Consistent Quantity-Quality Control across Scenes for Deployment-Aware Gaussian Splatting*".](https://arxiv.org/abs/2505.10473)

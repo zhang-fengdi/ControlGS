@@ -171,7 +171,7 @@ This software is free for non-commercial, research and evaluation use under the 
 
 ## Citation
 
-If you use ControlGS, please cite:
+If you find this code useful, please consider giving it a ⭐ star and citing our work:
 
 ```bibtex
 @article{zhang2025consistent,

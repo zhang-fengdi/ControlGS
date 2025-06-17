@@ -1,28 +1,28 @@
-Gaussian-Splatting License  
-===========================  
+ControlGS License  
+===========================
 
-**Inria** and **the Max Planck Institut for Informatik (MPII)** hold all the ownership rights on the *Software* named **gaussian-splatting**.  
-The *Software* is in the process of being registered with the Agence pour la Protection des  
-Programmes (APP).  
+Fengdi Zhang, Hongkun Cao, and Ruqi Huang hold all the ownership rights on the *Software* named *ControlGS*,  
+which is based on and extends the publicly available [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting) project by Inria and MPII.  
 
-The *Software* is still being developed by the *Licensor*.  
+The *Software* is in the process of being registered and disseminated for research and academic purposes.
+
+The *Software* is still being developed by the *Licensor*.
 
 *Licensor*'s goal is to allow the research community to use, test and evaluate  
-the *Software*.  
+the *Software*.
 
-## 1.  Definitions  
+## 1. Definitions
 
 *Licensee* means any person or entity that uses the *Software* and distributes  
-its *Work*.  
+its *Work*.
 
-*Licensor* means the owners of the *Software*, i.e Inria and MPII  
+*Licensor* means the owners of the *Software*, i.e., Fengdi Zhang, Hongkun Cao, and Ruqi Huang.
 
 *Software* means the original work of authorship made available under this  
-License ie gaussian-splatting.  
+License, i.e., *ControlGS*.
 
 *Work* means the *Software* and any additions to or derivative works of the  
-*Software* that are made available under this License.  
-
+*Software* that are made available under this License.
 
 ## 2.  Purpose  
 This license is intended to define the rights granted to the *Licensee* by  
@@ -69,13 +69,13 @@ corresponding publications as explained in the documentation of the *Software*.
 ## 5.  Disclaimer  
 
 THE USER CANNOT USE, EXPLOIT OR DISTRIBUTE THE *SOFTWARE* FOR COMMERCIAL PURPOSES  
-WITHOUT PRIOR AND EXPLICIT CONSENT OF LICENSORS. YOU MUST CONTACT INRIA FOR ANY  
-UNAUTHORIZED USE: stip-sophia.transfert@inria.fr . ANY SUCH ACTION WILL  
+WITHOUT PRIOR AND EXPLICIT CONSENT OF LICENSORS. YOU MUST CONTACT THE AUTHORS FOR ANY  
+UNAUTHORIZED USE: zhangfd22@mails.tsinghua.edu.cn. ANY SUCH ACTION WILL  
 CONSTITUTE A FORGERY. THIS *SOFTWARE* IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES  
 OF ANY NATURE AND ANY EXPRESS OR IMPLIED WARRANTIES, WITH REGARDS TO COMMERCIAL  
 USE, PROFESSIONNAL USE, LEGAL OR NOT, OR OTHER, OR COMMERCIALISATION OR  
-ADAPTATION. UNLESS EXPLICITLY PROVIDED BY LAW, IN NO EVENT, SHALL INRIA OR THE  
-AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR  
+ADAPTATION. UNLESS EXPLICITLY PROVIDED BY LAW, IN NO EVENT, SHALL THE AUTHORS  
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR  
 CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE  
 GOODS OR SERVICES, LOSS OF USE, DATA, OR PROFITS OR BUSINESS INTERRUPTION)  
 HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT  

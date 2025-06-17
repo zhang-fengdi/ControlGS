@@ -53,7 +53,7 @@ Opacity regularization weight; higher → fewer Gaussians (more compact) with lo
 Use a MipNeRF360-style training/test split for evaluation.
 
 #### --masks  
-Path to directory containing binary mask images; each mask corresponds to an input image and is used to ignore background or unwanted regions during training. In each mask, 1 marks regions to be masked out, and 0 marks regions to be kept.
+Path to directory containing binary mask images; each mask corresponds to an input image and is used to ignore background or unwanted regions during training. In each mask, `1` marks regions to be masked out, and `0` marks regions to be kept.
 
 #### --is_plot_enabled  
 Enable real-time plotting of loss and PSNR curves.

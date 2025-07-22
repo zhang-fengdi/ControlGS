@@ -89,10 +89,10 @@ class OptimizationParams(ParamGroup):
         self.opacity_lr = 0.025
         self.scaling_lr = 0.005
         self.rotation_lr = 0.001
-        self.exposure_lr_init = 0.001
-        self.exposure_lr_final = 0.0001
-        self.exposure_lr_delay_steps = 5000
-        self.exposure_lr_delay_mult = 0.001
+        self.exposure_lr_init = 0.0
+        self.exposure_lr_final = 0.0
+        self.exposure_lr_delay_steps = 0
+        self.exposure_lr_delay_mult = 0.0
         self.lambda_dssim = 0.2
         self.depth_l1_weight_init = 1.0
         self.depth_l1_weight_final = 0.01

@@ -4,10 +4,10 @@
 
 # ControlGS
 
-To reduce storage and computational costs, 3D Gaussian Splatting (3DGS) seeks to minimize the number of Gaussians used while preserving high rendering quality, introducing an inherent trade-off between Gaussian quantity and rendering quality. ControlGS extends 3DGS with *semantically meaningful*, cross-scene consistent quantity–quality control. Through a single training run using a fixed setup and a user-specified hyperparameter reflecting quantity–quality preference, ControlGS can automatically find desirable quantity–quality trade-off points across diverse scenes, from compact objects to large outdoor scenes. It also outperforms baselines by achieving higher rendering quality with fewer Gaussians, and supports a broad adjustment range with stepless control over the trade-off.
+3D Gaussian Splatting (3DGS) is a highly deployable real-time method for novel view synthesis. In practice, it requires a universal, consistent control mechanism that adjusts the trade-off between rendering quality and model compression without scene-specific tuning, enabling automated deployment across different device performances and communication bandwidths. In this context, *ControlGS* is introduced as a control-oriented optimization framework that maps the trade-off between Gaussian count and rendering quality to a continuous, scene-agnostic, and highly responsive control axis. Extensive experiments across a wide range of scene scales and types (from small objects to large outdoor scenes) demonstrate that, by adjusting a globally unified control hyperparameter, *ControlGS* can flexibly generate models biased toward either structural compactness or high fidelity, regardless of the specific scene scale or complexity, while achieving markedly higher rendering quality with the same or fewer Gaussians compared to potential competing methods.
 
 For more details, please see the paper: 
-["*Consistent Quantity-Quality Control across Scenes for Deployment-Aware Gaussian Splatting*".](https://arxiv.org/abs/2505.10473)
+["*ControlGS: Consistent Structural Compression Control for Deployment-Aware Gaussian Splatting*".](https://arxiv.org/abs/2505.10473)
 
 ## Hardware Requirements
 
@@ -42,7 +42,7 @@ python train.py -s <path to COLMAP or NeRF Synthetic dataset>
 Path to the source directory containing a COLMAP or Synthetic NeRF data set.
 
 #### --lambda_opacity  
-Opacity regularization weight; higher → fewer Gaussians (more compact) with lower fidelity, lower → more Gaussians (higher fidelity). Typical range: `1e-7` to `1e-6`.
+Opacity regularization weight: higher → fewer Gaussians (more compact) with lower fidelity; lower → more Gaussians (higher fidelity). Typical range: `1e-7` to `1e-6`.
 
 ### Optional Advanced Common Arguments
 
